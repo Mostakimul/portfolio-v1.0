@@ -7,6 +7,7 @@ body {
 #hero-section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  margin-bottom: 75px;
 }
 .hero {
   display: flex;
@@ -52,4 +53,66 @@ body {
   width: 75%;
   display: block;
   margin: 0 auto;
+}
+
+/* Experience Section */
+#experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  margin-bottom: 75px;
+}
+.experience__title {
+  font-size: 50px;
+  color: rgb(20, 20, 20);
+  width: 1200px;
+  margin: 50px auto;
+}
+.experience {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.experience-left {
+  width: 45%;
+  border-left: 10px solid;
+  border-image: linear-gradient(to bottom, orangered, orange);
+  border-image-slice: 1;
+  padding: 20px;
+  box-shadow: 0px 0px 30px rgb(160, 160, 160);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.experience-left__title {
+  font-size: 35px;
+  color: rgb(20, 20, 20);
+}
+.experience-left__sub {
+  font-size: 20px;
+  color: orangered;
+}
+.experience-left__para {
+  color: rgb(50, 50, 50);
+}
+.experience-right {
+  width: 45%;
+  margin-left: 10%;
+  border-left: 10px solid;
+  border-image: linear-gradient(to bottom, blue, skyblue);
+  border-image-slice: 1;
+  padding: 20px;
+  box-shadow: 0px 0px 30px rgb(160, 160, 160);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.experience-right__title {
+  font-size: 35px;
+  color: rgb(20, 20, 20);
+}
+.experience-right__sub {
+  font-size: 20px;
+  color: orangered;
+}
+.experience-right__para {
+  color: rgb(50, 50, 50);
 }
