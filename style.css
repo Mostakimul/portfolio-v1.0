@@ -1,3 +1,55 @@
 body {
   font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+
+/* Left Side Hero */
+#hero-section {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.hero {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.hero__left {
+  width: 50%;
+}
+.hero__left-title {
+  font-size: 50px;
+  color: rgb(20, 20, 20);
+}
+.color-orange {
+  color: orangered;
+}
+.hero__left-subtitle {
+  font-size: 25px;
+  color: rgb(40, 40, 40);
+}
+.hero__left-intro {
+  color: rgb(50, 50, 50);
+}
+.hero__left-btn {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(to right, orangered, orange);
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 14px rgb(160, 160, 160);
+}
+
+/* Right Side Hero*/
+.hero__right {
+  width: 50%;
+}
+.hero__right-img {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
 }
