@@ -3,6 +3,28 @@ body {
   margin: 0;
 }
 
+/* Common css */
+.page-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.experience-card {
+  border-left: 10px solid;
+  border-image: linear-gradient(to bottom, orangered, orange);
+  border-image-slice: 1;
+  padding: 20px;
+  box-shadow: 0px 0px 30px rgb(160, 160, 160);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.width-50 {
+  width: 50%;
+}
+
+.paragraph-color {
+  color: rgb(50, 50, 50);
+}
+
 /* Left Side Hero */
 #hero-section {
   background-image: url(images/top-banner.png);
@@ -11,12 +33,7 @@ body {
 }
 .hero {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
   padding-top: 20px;
-}
-.hero__left {
-  width: 50%;
 }
 .hero__left-title {
   font-size: 50px;
@@ -28,9 +45,6 @@ body {
 .hero__left-subtitle {
   font-size: 25px;
   color: rgb(40, 40, 40);
-}
-.hero__left-intro {
-  color: rgb(50, 50, 50);
 }
 .hero__left-btn {
   text-decoration: none;
@@ -44,11 +58,7 @@ body {
   border-radius: 5px;
   box-shadow: 5px 5px 14px rgb(160, 160, 160);
 }
-
 /* Right Side Hero*/
-.hero__right {
-  width: 50%;
-}
 .hero__right-img {
   width: 75%;
   display: block;
@@ -63,58 +73,27 @@ body {
   margin-bottom: 75px;
 }
 .experience__title {
-  font-size: 50px;
+  font-size: 40px;
   color: rgb(20, 20, 20);
-  width: 1200px;
-  margin: 50px auto;
 }
 .experience {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
+  margin-top: 50px;
 }
 .experience-left {
   width: 45%;
-  border-left: 10px solid;
-  border-image: linear-gradient(to bottom, orangered, orange);
-  border-image-slice: 1;
-  padding: 20px;
-  box-shadow: 0px 0px 30px rgb(160, 160, 160);
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
 }
-.experience-left__title {
-  font-size: 35px;
+.experience-card__title {
+  font-size: 30px;
   color: rgb(20, 20, 20);
 }
-.experience-left__sub {
+.experience-card__sub {
   font-size: 20px;
   color: orangered;
-}
-.experience-left__para {
-  color: rgb(50, 50, 50);
 }
 .experience-right {
   width: 45%;
   margin-left: 10%;
-  border-left: 10px solid;
-  border-image: linear-gradient(to bottom, blue, skyblue);
-  border-image-slice: 1;
-  padding: 20px;
-  box-shadow: 0px 0px 30px rgb(160, 160, 160);
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-.experience-right__title {
-  font-size: 35px;
-  color: rgb(20, 20, 20);
-}
-.experience-right__sub {
-  font-size: 20px;
-  color: orangered;
-}
-.experience-right__para {
-  color: rgb(50, 50, 50);
 }
 
 /* Footer */
