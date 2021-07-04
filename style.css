@@ -116,3 +116,9 @@ body {
 .experience-right__para {
   color: rgb(50, 50, 50);
 }
+
+/* Footer */
+.copyright {
+  text-align: center;
+  color: rgb(80, 80, 80);
+}
