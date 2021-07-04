@@ -23,7 +23,7 @@ body {
   color: rgb(50, 50, 50);
 }
 
-/* Left Side Hero */
+/********************* Left Side Hero *********************/
 #hero-section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
@@ -56,14 +56,57 @@ body {
   border-radius: 5px;
   box-shadow: 5px 5px 14px rgb(160, 160, 160);
 }
-/* Right Side Hero*/
+/********************* Right Side Hero *********************/
 .hero__right-img {
   width: 75%;
   display: block;
   margin: 0 auto;
 }
 
-/* Experience Section */
+/********************* Dream Big Section *********************/
+#big-dream {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 75px;
+}
+.big-dream {
+  display: flex;
+  align-items: center;
+}
+.dream-img {
+  width: 50%;
+}
+.dream-img__image {
+  width: 70%;
+}
+.dream-text {
+  width: 50%;
+}
+.dream-text__title {
+  font-size: 40px;
+  color: rgb(20, 20, 20);
+}
+.dream-text__sub {
+  font-size: 25px;
+  color: rgb(40, 40, 40);
+}
+.dream-text__para {
+  color: rgb(50, 50, 50);
+}
+.dream-text__btn {
+  border: none;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(to right, orangered, orange);
+  margin-top: 15px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 14px rgb(160, 160, 160);
+  cursor: pointer;
+}
+/********************* Experience Section *********************/
 #experience {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
